@@ -35,6 +35,13 @@ lmaoTestRunner("Ordered List", () =>
   compilerTest(orderedListLmao, expectedOrderedListHtml)
 );
 
+// Comment
+const commentLmao = "😭Comment💀😭";
+const expectedCommentHtml = "<!--Unordered List-->";
+lmaoTestRunner("Comment", () =>
+  compilerTest(commentLmao, expectedCommentHtml)
+);
+
 // Unordered List
 const unorderedListLmao = "🎲Unordered List💀🎲";
 const expectedUnorderedListHtml = "<ul>Unordered List</ul>";
