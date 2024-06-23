@@ -73,7 +73,7 @@ class Compiler {
           html += token.value;
           break;
         case "COMMENT":
-          html += "<!--"
+          html += "<!--";
           break;
         case "CLOSE_COMMENT":
           html += "-->";
