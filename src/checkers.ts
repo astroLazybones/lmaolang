@@ -7,7 +7,7 @@ export const isShallNotBeNamed = (tempString: string) => {
 
 export const isEmoji = (char: string) => {
   const emojiRegex =
-    /(\u00a9|\u00ae|[\u2000-\u3300]|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff])/g;
+    /(\u00a9|\u00ae|\u2000-\u3300|\ud83c[\ud000-\udfff]|\ud83d[\ud000-\udfff]|\ud83e[\ud000-\udfff]|\ud83e[\udd00-\udfff])/g;
   return emojiRegex.test(char);
 };
 
