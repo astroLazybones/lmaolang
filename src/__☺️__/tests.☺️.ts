@@ -37,7 +37,7 @@ lmaoTestRunner("Ordered List", () =>
 
 // Comment
 const commentLmao = "😭Comment💀😭";
-const expectedCommentHtml = "<!--Unordered List-->";
+const expectedCommentHtml = "<!--Comment-->";
 lmaoTestRunner("Comment", () =>
   compilerTest(commentLmao, expectedCommentHtml)
 );
