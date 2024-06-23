@@ -23,6 +23,8 @@ export type TokenType =
   | "LIST_ITEM"
   | "CLOSE_LIST_ITEM"
   | "ARTICLE"
+  | "COMMENT"
+  | "CLOSE_COMMENT"
   | "CLOSE_ARTICLE";
 
 export interface Token {
