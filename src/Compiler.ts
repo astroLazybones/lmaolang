@@ -76,7 +76,7 @@ class Compiler {
           html += "<!--"
           break;
         case "CLOSE_COMMENT":
-          html += "-->"
+          html += "-->";
         case "ERROR":
           console.log(
             red,
