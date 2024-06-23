@@ -72,6 +72,11 @@ class Compiler {
         case "TEXT":
           html += token.value;
           break;
+        case "COMMENT":
+          html += <!--
+          break;
+        case "CLOSE_COMMENT":
+          html += -->
         case "ERROR":
           console.log(
             red,
