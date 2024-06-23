@@ -24,37 +24,27 @@ lmaoTestRunner("Span", () => compilerTest(spanLmao, expectedSpanHtml));
 // Paragraph
 const paragraphLmao = "💬I am a paragraph💀💬";
 const expectedParagraphHtml = "<p>I am a paragraph</p>";
-lmaoTestRunner("Paragraph", () =>
-  compilerTest(paragraphLmao, expectedParagraphHtml)
-);
+lmaoTestRunner("Paragraph", () => compilerTest(paragraphLmao, expectedParagraphHtml));
 
 // Ordered List
 const orderedListLmao = "📃Ordered List💀📃";
 const expectedOrderedListHtml = "<ol>Ordered List</ol>";
-lmaoTestRunner("Ordered List", () =>
-  compilerTest(orderedListLmao, expectedOrderedListHtml)
-);
+lmaoTestRunner("Ordered List", () => compilerTest(orderedListLmao, expectedOrderedListHtml));
 
 // Comment
 const commentLmao = "😭Comment💀😭";
 const expectedCommentHtml = "<!--Comment-->";
-lmaoTestRunner("Comment", () =>
-  compilerTest(commentLmao, expectedCommentHtml)
-);
+lmaoTestRunner("Comment", () => compilerTest(commentLmao, expectedCommentHtml));
 
 // Unordered List
 const unorderedListLmao = "🎲Unordered List💀🎲";
 const expectedUnorderedListHtml = "<ul>Unordered List</ul>";
-lmaoTestRunner("Unordered List", () =>
-  compilerTest(unorderedListLmao, expectedUnorderedListHtml)
-);
+lmaoTestRunner("Unordered List", () => compilerTest(unorderedListLmao, expectedUnorderedListHtml));
 
 // List Item
 const listItemLmao = "👂List Item💀👂";
 const expectedListItemHtml = "<li>List Item</li>";
-lmaoTestRunner("List Item", () =>
-  compilerTest(listItemLmao, expectedListItemHtml)
-);
+lmaoTestRunner("List Item", () => compilerTest(listItemLmao, expectedListItemHtml));
 
 // Article
 const articleLmao = "🤓Article💀🤓";
